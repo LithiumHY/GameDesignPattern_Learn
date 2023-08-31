@@ -2,7 +2,7 @@
 {
     public class EmptyCommand:ICommand
     {
-        public void Execute(MovementBehavior actor)
+        public void Execute(IGameActor actor)
         {
             
         }

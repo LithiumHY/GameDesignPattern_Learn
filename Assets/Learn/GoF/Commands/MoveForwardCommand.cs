@@ -6,7 +6,7 @@ namespace Learn.GoF.Commands
     {
         //没有信息，添加一个对behavior的引用
         public MovementBehavior Behavior;
-        public void Execute(MovementBehavior actor)
+        public void Execute(IGameActor actor)
         {
             Debug.Log("Move Forward");
             actor.MoveForward();

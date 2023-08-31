@@ -4,7 +4,7 @@ namespace Learn.GoF.Commands
 {
     public class TurnRightCommand:ICommand
     {
-        public void Execute(MovementBehavior actor)
+        public void Execute(IGameActor actor)
         {
             Debug.Log("Turn Right");
             actor.TurnRight();

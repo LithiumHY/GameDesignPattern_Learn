@@ -4,7 +4,7 @@ namespace Learn.GoF.Commands
 {
     public class MoveLeftCommand:ICommand
     {
-        public void Execute(MovementBehavior actor)
+        public void Execute(IGameActor actor)
         {
             Debug.Log("Move Left");
             actor.MoveLeft();
