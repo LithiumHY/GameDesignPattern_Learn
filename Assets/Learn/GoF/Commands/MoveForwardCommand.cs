@@ -4,9 +4,13 @@ namespace Learn.GoF.Commands
 {
     public class MoveForwardCommand:ICommand
     {
-        public void Execute()
+        //没有信息，添加一个对behavior的引用
+        public MovementBehavior Behavior;
+        public void Execute(MovementBehavior actor)
         {
             Debug.Log("Move Forward");
+            actor.MoveForward();
         }
+        
     }
 }
