@@ -1,6 +1,7 @@
-﻿using UnityEngine;
+﻿using Resources.Command_Ex.CommandPattern.LearnScripts.Commands;
+using UnityEngine;
 
-namespace CommandPattern.LearnScripts
+namespace Resources.Command_Ex.CommandPattern.LearnScripts
 {
     public static class CommandFactory
     {

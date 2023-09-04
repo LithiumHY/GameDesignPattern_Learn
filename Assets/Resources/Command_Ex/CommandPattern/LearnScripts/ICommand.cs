@@ -1,4 +1,4 @@
-﻿namespace CommandPattern.LearnScripts
+﻿namespace Resources.Command_Ex.CommandPattern.LearnScripts
 {
     public interface ICommand
     {

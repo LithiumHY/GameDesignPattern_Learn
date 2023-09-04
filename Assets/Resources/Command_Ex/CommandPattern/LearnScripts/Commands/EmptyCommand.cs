@@ -1,4 +1,4 @@
-﻿namespace CommandPattern.LearnScripts
+﻿namespace Resources.Command_Ex.CommandPattern.LearnScripts.Commands
 {
     public class EmptyCommand: ICommand
     {

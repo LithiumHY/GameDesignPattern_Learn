@@ -1,6 +1,7 @@
+using Resources._3rdTemplate.InputSystem;
 using UnityEngine;
 
-namespace StarterAssets
+namespace Resources._3rdTemplate.Mobile.Scripts.CanvasInputs
 {
     public class UICanvasControllerInput : MonoBehaviour
     {

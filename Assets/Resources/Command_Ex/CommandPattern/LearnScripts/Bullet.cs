@@ -1,7 +1,6 @@
-﻿using System/**/;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace CommandPattern.Scripts
+namespace Resources.Command_Ex.CommandPattern.LearnScripts
 {
     public class Bullet : MonoBehaviour
     {

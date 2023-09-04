@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Learn.GoF.Commands
+namespace GOF_LearningScripts.Commands
 {
     public class MoveLeftCommand:ICommand
     {

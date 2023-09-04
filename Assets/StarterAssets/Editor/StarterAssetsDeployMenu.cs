@@ -1,14 +1,12 @@
 using System;
 using System.Linq;
+using Cinemachine;
 using StarterAssetsPackageChecker;
 using UnityEditor;
 using UnityEngine;
 using Object = UnityEngine.Object;
-#if STARTER_ASSETS_PACKAGES_CHECKED
-using Cinemachine;
-#endif
 
-namespace StarterAssets
+namespace StarterAssets.Editor
 {
     // This class needs to be a scriptable object to support dynamic determination of StarterAssets install path
     public partial class StarterAssetsDeployMenu : ScriptableObject

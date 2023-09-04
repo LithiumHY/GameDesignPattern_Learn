@@ -1,7 +1,4 @@
-using Learn.GoF.Commands;
-using UnityEngine;
-
-namespace Learn.GoF
+namespace GOF_LearningScripts.Commands
 {
     public interface ICommand
     {

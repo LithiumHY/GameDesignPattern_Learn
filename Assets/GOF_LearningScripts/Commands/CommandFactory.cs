@@ -1,7 +1,7 @@
 ﻿
 using UnityEngine;
 
-namespace Learn.GoF.Commands
+namespace GOF_LearningScripts.Commands
 {
     public static class CommandFactory
     {

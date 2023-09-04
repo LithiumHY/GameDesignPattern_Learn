@@ -1,4 +1,4 @@
-namespace Learn.GoF.Commands
+namespace GOF_LearningScripts.Commands
 {
     public interface IGameActor
     {
