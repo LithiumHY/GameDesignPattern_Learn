@@ -2,7 +2,7 @@
 
 namespace GOF_LearningScripts.Commands
 {
-    public abstract class BaseMovementBehavior: MonoBehaviour,IGameActor
+    public abstract class BaseMovementBehavior: MonoBehaviour,IGamePawn
     {
         //需要保证子类也能被访问到
         protected ICommand moveForward;
